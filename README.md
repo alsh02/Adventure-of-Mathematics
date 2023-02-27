@@ -10,6 +10,43 @@
 
 https://wikidocs.net/book/2
 
+## 설치해야하는 라이브러리 🔥
+아래 라이브러리를 설치해야 수업을 원활하게 진행할 수 있습니다.
+```matplotlib : 시각화 라이브러리
+numpy   : 수치 계산 라이브러리
+pandas  : 데이터 분석 라이브러리
+csv     : 엑셀파일을 읽어오는 라이브러리
+librosa : 음원 데이터 분석 라이브러리
+scipy   : 과학기술계산 라이브러리
+pillow  : 이미지 처리 라이브러리
+```
+
+* 설치 방법
+
+Windows의 경우 ```cmd``` , MacOS의 경우 ```terminal``` 을 연 뒤 아래 명령어를 입력하세요.
+```python
+# 로컬에 설치하는 경우
+pip install matplotlib
+pip install numpy
+pip install pandas
+pip install csv
+pip install librosa
+pip install scipy
+pip install pillow
+
+# Anaconda로 설치하는 경우
+# conda activate [생성한 가상환경 이름]을 먼저 입력한 뒤 아래 명령어를 입력하세요.
+# Anaconda도 pip를 통해 설치할 수 있지만, 
+# 아래 명령어로 설치할 때 오류가 나지 않는다면 conda로 설치하는 걸 권장합니다.
+conda install matplotlib
+conda install numpy
+conda install pandas
+conda install csv
+conda install librosa
+conda install scipy
+conda install pillow
+```
+
 ## Google Colab 사용해보기
 Colab은 Google에서 제공하는 클라우드 기반 대화형 Python 스크립트 메모장입니다. 우리의 컴퓨팅 자원을 사용하는 것이 아니라 Google의 클라우드를 이용하는 것이기 때문에 컴퓨터 성능이 부족하더라도 머신러닝이나 딥러닝 연산을 수월하게 수행할 수 있습니다.
 
