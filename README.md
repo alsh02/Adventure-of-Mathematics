@@ -50,7 +50,7 @@ conda install pillow
 ## Google Colab 사용해보기 📝
 Colab은 Google에서 제공하는 클라우드 기반 대화형 Python 스크립트 메모장입니다. 우리의 컴퓨팅 자원을 사용하는 것이 아니라 Google의 클라우드를 이용하는 것이기 때문에 컴퓨터 성능이 부족하더라도 머신러닝이나 딥러닝 연산을 수월하게 수행할 수 있습니다.
 
-아래 링크로 접속해서
+아래 링크로 접속해서(구글 로그인은 포털에서 발급한 hanyang.ac.kr 계정을 이용하는 걸 권장합니다.)
 
 https://colab.research.google.com/?hl=ko
 
